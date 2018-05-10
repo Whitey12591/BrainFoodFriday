@@ -25,7 +25,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>BrainFoodFriday</string>
 	<key>CFBundleIdentifier</key>
-	<string>Rightpoint.BrainFoodFriday</string>
+	<string>com.rightpoint.appcenter</string>
 	<key>CFBundleVersion</key>
 	<string>1.0</string>
 	<key>UILaunchStoryboardName</key>
