@@ -11,6 +11,8 @@ namespace BrainFoodFriday.ViewModels
         {
             Title = item?.Text;
             Item = item;
+
+            // Some comment goes here
         }
     }
 }
