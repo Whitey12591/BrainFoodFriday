@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainFoodFriday.iOS", "Brai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainFoodFriday.UITests", "BrainFoodFriday.UITests\BrainFoodFriday.UITests.csproj", "{B19C892E-2628-4CA7-AD27-08D406A3B14B}"
 EndProject
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BrainFoodFriday", "BrainFoodFriday\BrainFoodFriday.shproj", "{7175D979-7834-4225-8660-F239CAF5C260}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainFoodFriday", "BrainFoodFriday.Core\BrainFoodFriday.csproj", "{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,5 +55,19 @@ Global
 		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{B19C892E-2628-4CA7-AD27-08D406A3B14B}.Release|iPhone.Build.0 = Release|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}.Release|iPhone.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal

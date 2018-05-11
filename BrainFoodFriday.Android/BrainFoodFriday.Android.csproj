@@ -109,6 +109,11 @@
     <Folder Include="Resources\drawable-xxhdpi\" />
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
-  <Import Project="..\BrainFoodFriday\BrainFoodFriday.projitems" Label="Shared" />
+  <ItemGroup>
+    <ProjectReference Include="..\BrainFoodFriday.Core\BrainFoodFriday.csproj">
+      <Project>{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}</Project>
+      <Name>BrainFoodFriday</Name>
+    </ProjectReference>
+  </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
