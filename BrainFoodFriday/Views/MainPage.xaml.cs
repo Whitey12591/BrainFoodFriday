@@ -2,6 +2,7 @@
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Microsoft.AppCenter.Analytics;
 
 namespace BrainFoodFriday.Views
 {
@@ -11,6 +12,8 @@ namespace BrainFoodFriday.Views
         public MainPage()
         {
             InitializeComponent();
+			Analytics.TrackEvent("Another Custom Event");
+            
         }
     }
 }
