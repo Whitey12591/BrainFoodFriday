@@ -1,6 +1,8 @@
 # Autosave files
 *~
 
+*.mfractor/
+
 # build
 [Oo]bj/
 [Bb]in/

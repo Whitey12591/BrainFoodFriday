@@ -23,7 +23,7 @@
 	<key>MinimumOSVersion</key>
 	<string>8.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>BrainFoodFriday</string>
+	<string>BFF</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.rightpoint.appcenter</string>
 	<key>CFBundleVersion</key>
@@ -35,13 +35,13 @@
 	<key>XSAppIconAssets</key>
 	<string>Assets.xcassets/AppIcon.appiconset</string>
 	<key>CFBundleURLTypes</key>
-  <array>
-      <dict>
-          <key>CFBundleURLSchemes</key>
-          <array>
-              <string>appcenter-f3b72164-680d-4902-af59-ba57b9e7ddc5</string>
-          </array>
-      </dict>
-  </array>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>appcenter-f3b72164-680d-4902-af59-ba57b9e7ddc5</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
