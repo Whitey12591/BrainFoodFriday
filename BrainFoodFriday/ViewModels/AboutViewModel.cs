@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Input;
+using Microsoft.AppCenter.Crashes;
 
 using Xamarin.Forms;
 
@@ -11,7 +12,18 @@ namespace BrainFoodFriday.ViewModels
         {
             Title = "About";
 
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
+			OpenWebCommand = new Command(() => 
+			{
+				try
+				{ 
+					var crash = 0;
+					var test = 10 / crash;
+				}
+				catch (Exception exception) 
+				{ 
+					Crashes.TrackError(exception); 
+				}
+			});
         }
 
         public ICommand OpenWebCommand { get; }

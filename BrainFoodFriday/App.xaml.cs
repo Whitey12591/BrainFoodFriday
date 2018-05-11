@@ -25,7 +25,11 @@ namespace BrainFoodFriday
         protected override void OnStart()
         {
 			// Handle when your app starts
-			Microsoft.AppCenter.AppCenter.Start("ios=f3b72164-680d-4902-af59-ba57b9e7ddc5;" + "android=4e32e4b3-7d51-4b6b-ad13-0e2f26ab4804;", typeof(Analytics), typeof(Crashes), typeof(Push), typeof(Distribute));
+			Microsoft.AppCenter.AppCenter.Start("ios=f3b72164-680d-4902-af59-ba57b9e7ddc5;" + "android=4e32e4b3-7d51-4b6b-ad13-0e2f26ab4804;", 
+			                                    typeof(Analytics), 
+			                                    typeof(Crashes), 
+			                                    typeof(Push), 
+			                                    typeof(Distribute));
         }
 
         protected override void OnSleep()

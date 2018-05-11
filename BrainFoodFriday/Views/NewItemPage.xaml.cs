@@ -31,7 +31,7 @@ namespace BrainFoodFriday.Views
         {
             MessagingCenter.Send(this, "AddItem", Item);
             await Navigation.PopModalAsync();
-			Crashes.GenerateTestCrash();
+			throw new NotImplementedException();
         }
     }
 }
