@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Microsoft.AppCenter.Distribute;
 using UIKit;
 
 namespace BrainFoodFriday.iOS
@@ -24,6 +25,10 @@ namespace BrainFoodFriday.iOS
         {
             Xamarin.Calabash.Start();
             global::Xamarin.Forms.Forms.Init();
+
+            // Make iOS happy in Debug
+			Distribute.DontCheckForUpdatesInDebug();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
