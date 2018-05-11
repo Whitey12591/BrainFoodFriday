@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Microsoft.AppCenter.Crashes;
 
 using BrainFoodFriday.Models;
 
@@ -30,7 +31,7 @@ namespace BrainFoodFriday.Views
         {
             MessagingCenter.Send(this, "AddItem", Item);
             await Navigation.PopModalAsync();
-			Crashes.generateTestCrash();
+			Crashes.GenerateTestCrash();
         }
     }
 }
