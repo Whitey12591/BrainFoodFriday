@@ -1,6 +1,10 @@
 ﻿using System;
-using Xamarin.Forms;
 using BrainFoodFriday.Views;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Push;
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
@@ -19,7 +23,8 @@ namespace BrainFoodFriday
 
         protected override void OnStart()
         {
-            // Handle when your app starts
+			// Handle when your app starts
+			Microsoft.AppCenter.AppCenter.Start("ios=f3b72164-680d-4902-af59-ba57b9e7ddc5;" + "android=4e32e4b3-7d51-4b6b-ad13-0e2f26ab4804;", typeof(Analytics), typeof(Crashes), typeof(Push));
         }
 
         protected override void OnSleep()
