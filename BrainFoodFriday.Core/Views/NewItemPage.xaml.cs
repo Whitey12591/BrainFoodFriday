@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Analytics;
 
 using BrainFoodFriday.Models;
 
@@ -17,7 +18,8 @@ namespace BrainFoodFriday.Views
         public NewItemPage()
         {
             InitializeComponent();
-
+			Analytics.TrackEvent("This is a Custom Event!");
+                   
             Item = new Item
             {
                 Text = "Item name",
