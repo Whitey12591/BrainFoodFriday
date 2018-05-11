@@ -154,6 +154,11 @@
       <Version>1.6.0</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BrainFoodFriday.Core\BrainFoodFriday.csproj">
+      <Project>{BC411D04-0DBC-4CCB-B5E2-16B9A0313453}</Project>
+      <Name>BrainFoodFriday</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
-  <Import Project="..\BrainFoodFriday\BrainFoodFriday.projitems" Label="Shared" />
 </Project>
